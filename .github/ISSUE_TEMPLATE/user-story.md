@@ -1,23 +1,30 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
+name: User Story
+about: Create a user story to describe a feature from an end-user perspective
 title: ''
-labels: ''
+labels: 'user story'
 assignees: ''
+---
+
+## User Story
+
+**As a** [role – e.g., customer, admin, registered user]  
+**I need** [functionality or feature needed]  
+**So that** [business value or benefit]
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
-   
- ### Details and Assumptions
- * [document what you know]
-   
- ### Acceptance Criteria  
-   
- ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
- ```
+## Details and Assumptions
+- Describe relevant background information
+- List assumptions or constraints
+- Include dependencies or related features
+
+---
+
+## Acceptance Criteria
+
+```gherkin
+Given the user is logged in
+When the user performs the required action
+Then the system produces the expected result
+```
